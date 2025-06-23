@@ -1,0 +1,58 @@
+# 🎬 Netflix Dataset Cleaning – Internship Task 1
+
+Hi! This repository contains my solution for **Task 1** of the Data Analyst Internship – focused on cleaning and preprocessing a dataset using Excel.
+
+---
+
+## 📝 Task Overview
+
+The goal was to take a raw dataset (with missing values, duplicates, inconsistent formats, etc.) and clean it up so it's ready for analysis. I used Excel to handle everything step-by-step.
+
+---
+
+## 📂 About the Dataset
+
+- The dataset is a simulated sample of Netflix titles with 100 entries.
+- Original file: `netflix_titles_raw_100.csv`
+- Cleaned version: `netflix_titles_cleaned.xlsx`
+
+---
+
+## 🧹 What I Did (Cleaning Steps)
+
+Here’s a quick summary of the cleaning process:
+
+- **Renamed columns** to be lowercase and consistent (e.g., `date_added`, `release_year`)
+- **Removed duplicate rows** using Excel’s “Remove Duplicates” feature
+- **Handled missing values**:
+  - Replaced empty cells in `director` and `cast` with “Not specified”
+  - Replaced empty cells in `country` and `rating` with “Unknown”
+- **Fixed date format** in `date_added` to be in `DD-MM-YYYY` format
+- **Checked data types**, especially making sure `release_year` was numeric
+
+---
+
+## 💻 Tools Used
+
+- Microsoft Excel  
+  (Used filters, formulas, and built-in cleaning tools)
+
+---
+
+## 📁 Files Included
+
+- `netflix_titles_raw_100.csv` – the original raw dataset
+- `netflix_titles_cleaned.xlsx` – cleaned version in Excel
+- `README.md` – this file
+
+---
+
+## 🚀 Final Thoughts
+
+This task helped me get hands-on practice with real-world data issues like missing values and inconsistent formats. Cleaning data is such an important part of analysis, and this was a great way to build confidence using Excel for that.
+
+Thanks for checking out my work!
+
+---
+
+_Naitik Patel_
